@@ -1,0 +1,673 @@
+*  {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+        color: #faf4f4;
+ 
+      }
+        
+
+body, main{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+/*Inicio del header*/
+.header{
+  width: 100%;
+  height: 2em;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/*h1{
+  font-family: "The Macabre", sans-serif;
+  font-size: 1500px;
+}*/
+
+.img{
+  width: 1600px;
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  object-fit: cover;
+  width: 100vw; /* Ocupará el ancho completo de la pantalla */
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Inicio del nav*/
+.nav {
+  width: 90%;
+  height: 4em;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ .barnav{
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+ .nav a{
+  color: white; /* Cambia el color del texto a blanco */
+  text-decoration: none;
+  white-space: nowrap;
+  justify-content: space-between; /* Elimina la decoración de subrayado */
+  padding: 1em; /* Espaciado alrededor del enlace */
+  margin: 1em; /* Margen horizontal entre enlaces */
+}
+nav a:hover {
+  color:darkred /* Puedes usar el color que prefieras */
+}
+
+
+
+
+ /*.barnav{
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/*Inicio del banner*/
+.banner{
+  width: 100vw; /* Ocupará el ancho completo de la pantalla */
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*.title-banner{
+  font-size: 150px;
+}*/
+
+
+.btn-banner{
+  background-color: #000000;
+  text-decoration: none;
+  padding: 1em 4em;
+  color:#ffffff;
+  font-size: 1.25em;
+  margin-top: 160px;
+  border-radius: 2em;
+}
+.btn-banner:hover{
+  background-color: #9b0b0b;
+  color:#ffffff;
+  transition: 0.5s;
+}
+
+.menu{
+  width: 20%;
+  height: 100%;
+  background-color: transparent;
+  
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1em;
+}
+
+/*Inicio del artículo*/
+
+.article{
+  width: 80%;
+  height: 100px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.title-article{
+  font-size: 35px;
+}
+
+.paragraph-article{
+  width: 80%;
+  height: 300vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  }
+
+
+/*.menu:hover{
+  background-color: #913d99;
+  color: transparent;
+  transition: 0.5sg;
+} */
+
+.article2{
+  width: 100%;
+  height: 90px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.title-article2{
+  font-size: 35px;
+}
+
+.paragraph-article2{
+  width: 80%;
+  height: 20vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  }
+
+
+  .contenedor1{
+
+    width: 1100px;
+    height: 400px; /* Utilizar Flexbox en el contenedor */
+    display: flex;
+    margin: auto;
+    padding: 40px;
+    justify-content: space-between; /* Espacio entre las cajas */    
+  }
+
+  .box-1{
+    width: 250px;
+    height: 200px;
+    
+    padding: 10px;
+    background-color: transparent;
+    /*border: 1px solid #ffffff;*/
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+
+
+
+.box-2{
+  width: 250px;
+  height: 200px;
+  
+  padding: 10px;
+  background-color: transparent;
+  /*border: 1px solid #ffffff;*/
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+
+.box-3{
+  width: 250px;
+  height: 200px;
+ 
+  padding: 10px;
+  background-color: transparent;
+  /*border: 1px solid #ffffff;*/
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+
+
+
+
+
+.hr-divider{
+  width: 70%;
+  border: 0,5px solid #ffffff;
+  margin: 100px;
+}
+
+.contenedor2{
+  width: 1500px;
+  height: 700px;
+  overflow: hidden;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  background-color: transparent;
+  
+}
+
+
+.box-4{
+  width: 500px;/* Ocupa el espacio disponible de manera equitativa */
+  height: 350px;
+  margin: 50px;
+  padding: 10px;
+  background-color: #000000;
+  border-radius: 20px;
+  
+
+}
+
+.box-5{
+  width: 500px; /* Ocupa el espacio disponible de manera equitativa */
+  height: 350px;
+  margin: 40px;
+  padding: 10px;
+  overflow-y: scroll;
+  background-color: #000000;
+  border-radius: 10px;
+
+}
+
+.btn_2{
+  background-color: #9b0b0b;
+  text-decoration: none;
+  text-align: center;
+  margin: 30px;
+  padding: 9px;
+  color:#ffffff;
+  font-size: 18px;
+  margin-top: 100px;
+  border-radius: 20px;
+
+ 
+  
+}
+.btn_2:hover{
+  background-color: #ffffff;
+  color:#000000;
+  transition: 0.5s;
+  
+}
+
+
+
+.contenedor3{
+  width: 1500px;
+  height: 500px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-flow: row wrap;
+ 
+
+}
+
+.box-6{
+width: 250px;
+height: 350px;
+border-radius: 10px;
+margin: 20px;
+display: inline;
+
+
+}
+
+
+.box-7{
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 20px;
+  display: inline;
+
+
+}
+
+
+.box-8{
+width: 250px;
+height: 350px;
+border-radius: 10px;  
+margin: 20px;
+display: inline;
+
+}
+
+
+.contendor4{
+width: 1500px;
+height: 500px;
+background-color: transparent;
+flex-flow: row wrap;
+justify-content: center;
+align-content:space-between;
+}
+
+.box-9{
+  display: flex;
+  width: 250px;
+  height: 350px;
+  line-height: 120px;
+  text-align: center;
+  margin: 20px;
+
+}
+.box-9{
+
+margin-bottom: 0px;
+float: left;
+}
+
+
+.box-10{
+  display: flex;
+  width: 250px;
+  height: 350px;
+  line-height: 120px;
+  text-align: center;
+  margin: 20px;
+
+}
+.box-10{
+
+margin-bottom: 0px;
+float: left;
+}
+
+.contenedor-gallery{
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: 1fr 2fr 1fr;
+grid-template-areas:
+"item1 item2 item3"
+"item4 item5 item6"
+"item7 item8 item9"
+;
+row-gap: 10px;
+column-gap: 10px;
+}
+
+.contenedor-gallery div{
+  border: transparent;
+  /*border: 1px solid #9b0b0b;*/
+}
+
+.item1{
+  grid-area: item1;
+  background-color: transparent;
+  display: felx;
+  justify-content: space-around;
+  align-items: center;
+}
+.item2{
+  grid-area: item2;
+}
+
+.item3{
+  grid-area: item3;
+}
+.item4{
+  grid-area: item4;
+}
+.item5{
+  grid-area: item5;
+}
+.item6{
+  grid-area: item6;
+}
+.item7{
+  grid-area: item7;
+}
+.item8{
+  grid-area: item8;
+}
+.item9{
+  grid-area: item9;
+}
+
+.contenedor-img1{
+  height: 300px;
+  width:300px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.contenedor-img2{
+  height: 300px;
+  width: 600px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor-img3{
+  height: 300px;
+  width: 300px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.contenedor-img4{
+  height: 600px;
+  width: 300px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor-img5{
+  height: 650px;
+  width: 600px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor-img6{
+  height: 600px;
+  width: 300px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor-img7{
+  height: 300px;
+  width:300px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.contenedor-img8{
+  height: 300px;
+  width: 600px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.contenedor-img9{
+  height: 300px;
+  width:300px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.grid-container{
+  justify-items: center; /* start | end | center | stretch */
+  align-items: center; /* start | end | center | stretch */
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  display: grid;
+  width: 65%;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  grid-template-rows: auto auto;
+  grid-row-gap: 10px;
+}
+.grid-container{
+  height: 700px;
+  width:1600px;
+
+  font-size: 21px;
+  padding: 5px;
+}
+.grid-item{
+
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.footer {
+  width: 1600px;
+  height: 100px;
+  margin-top: 50px;
+  background-color:#9b0b0b;
+  color: #fff;
+  text-align: center;
+  padding: 0px; 
+}
+
+.footer-content {
+  margin-top: 50px;
+
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+
+form {
+  /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width: 600px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+     Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 1em sans-serif;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: top;
+
+  /* Proporcionar espacio para escribir texto */
+  height: 5em;
+}
+
+.button {
+  /* Alinear los botones con los campos de texto */
+  padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+}
+
+button {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+     entre las etiquetas y sus campos de texto */
+  margin-left: 0.5em;
+}
+@media (max-width:400px) {
+  body main { 
+    background-color: white;
+  }
+
+}
+@media (max-width:600px) {
+  body main {
+    background-color: rgb(19, 18, 18);
+  } 
+}
+
+@media (max-width:360px){
+  header nav{
+    flex-direction: column;
+
+  }
+
+}
